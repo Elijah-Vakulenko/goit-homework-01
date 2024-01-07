@@ -1,8 +1,50 @@
+/*Селектор за типом елемента (X)*/
 h1 {
-    background-color: #a4deab;
+  background-color: #a4deab;
 }
 
+/*Селектор класу (.X)*/
 .latin-text {
-    color:#a4deab;
+  color: #a4deab;
 }
 
+/*Селектор нащадка (X Y)*/
+ol li {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(30%, 10%, 50%, 50%);
+}
+
+/*Селектор ідентифікатора (#X)*/
+#forms {
+  font-size: large;
+  color: red;
+}
+
+/*Дочірній селектор (X > Y)*/
+.latin-text > ul {
+  color: blue;
+}
+
+details summary {
+  border: 1px solid tomato !important;
+}
+
+/*Селектори стану (X:state) - селектор:псевдоклас */
+.link:hover {
+  font-size: small;
+  color: chocolate;
+}
+.link:active {
+  font-size: x-large;
+}
+
+.link:focus {
+  color: orange;
+}
+
+.example {
+  color: red;
+}
+.example .example-title {
+  color: inherit;
+}
