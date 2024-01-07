@@ -3,9 +3,51 @@ h1 {
   background-color: #a4deab;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tahoma";
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
 /*Селектор класу (.X)*/
 .latin-text {
   color: #a4deab;
+}
+/*text-transform: none | uppercase | lowercase | capitalize*/
+/*ext-align: left | right | center | justify*/
+.hi {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.Maya {
+  color: red;
+  font-weight: 500;
+  font-size: 20px;
+}
+/*line-height: множник | значення | відсотки | normal | inherit*/
+/*letter-spacing: значення | normal | inherit*/
+/*text-indent: значення | відсотки | inherit - відступ*/
+/*Властивість text-shadow контролює тінь тексту, а також задає її параметри: колір, зміщення та радіус розмиття.
+text-shadow: <зміщення по x>, <зміщення по y>, <радіус розмиття>, <колір>*/
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-indent: 30px;
+  text-shadow: 3px 3px 5px black;
 }
 
 /*Селектор нащадка (X Y)*/
@@ -31,7 +73,7 @@ details summary {
 
 /*Селектори стану (X:state) - селектор:псевдоклас */
 .link:hover {
-  font-size: small;
+  font-size: 20px;
   color: chocolate;
 }
 .link:active {
@@ -48,3 +90,9 @@ details summary {
 .example .example-title {
   color: inherit;
 }
+
+p {
+  font-family: "Helvetica Neue", "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+/*text-decoration: none | underline | line-through | overline*/
