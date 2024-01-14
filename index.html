@@ -27,6 +27,13 @@ address {
         </ul>
     </nav>
 
+    <details>
+    <summary><h1>Pss... Do you want to know a secret?</h1></summary>
+    <p class="maya">
+        I'm in love with Maya
+    </p>
+</details>
+
     <p class="hi">Hello World</p>
 
     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, praesentium earum? Reprehenderit molestias totam recusandae inventore similique nam ad unde fuga consequatur, ab ratione voluptatibus laboriosam labore minima odit dolorum quisquam distinctio laudantium quam! Consectetur atque nesciunt veritatis vero in eius, natus aspernatur at fugit nihil enim perferendis inventore reprehenderit quibusdam, illo eos dolor totam numquam ab ducimus magni dolore repellat quasi voluptatibus. Numquam quibusdam vero, ut expedita debitis dolorum natus dignissimos magnam consequuntur earum quis unde obcaecati at ipsum eum fugit rerum, reiciendis quo. Nesciunt, cum eveniet odit quod voluptatum neque error ut dolores beatae dolorem iusto in sit sequi repellendus? Quis libero, quidem, hic perspiciatis corrupti suscipit assumenda veniam aliquid illum alias officiis accusantium deserunt voluptatum ad nobis dolor voluptate. Commodi ratione minus libero accusantium, architecto vitae asperiores totam error dignissimos aliquam, ea cupiditate corrupti voluptas eos dolores obcaecati a, consequatur sit eligendi quasi facere excepturi laboriosam. Molestiae.</p>
@@ -36,7 +43,7 @@ address {
 
 <!--Types of text-->
 
-    <h1 id="text-types">Types of text and lists</h1>
+    <h2 id="text-types">Types of text and lists</h2>
 <ul>
     <li><b>bold</b></li>
     <li><i>italic</i></li>
@@ -47,48 +54,85 @@ address {
     <li><span style="background: white;">text with colored bg</span></li>
     <li><span style="font-size: 30px;">bigger text</span></li>
     <li>I markes <mark>this text</mark></li>
+    <li><p style="color: #a4deab; font-size: 20px; font-weight: 900;">Осьо якось так...</p></li>
+    <li><p class="latin-text">Lorem, &lt;ipsum&gt; dolor.</p></li>
 </ul>
 
-<ol>
-    <li>one</li>
-    <li>two</li>
+<H2>Lists</H2>
+
+<ul>
+    <li>Первый элемент</li>
+    <li>Второй элемент</li>
+    <li>Третий элемент</li>
+</ul>
+</p>
+<p>
+    <ol>
+    <li>Первый элемент</li>
+    <li>Второй элемент</li>
+    <li>Третий элемент</li>
 </ol>
+</p>
+<p>
+<dl>
+    <dt>Термин 1</dt>
+    <dd>Определение 1</dd>
+    <dt>Термин 2</dt>
+    <dd>Определение 2</dd>
+</dl>
 
-<p style="color: #a4deab;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione veniam est facilis eius vero. Ex unde veritatis provident maxime quibusdam iure, animi deleniti? Nisi tenetur rerum, quod corrupti deserunt ex.</p>
-
-<p class="latin-text">Lorem, &lt;ipsum&gt; dolor.<br> 
-    <ul>
-        <li>three</li>
-        <li>four</li>
-    </ul>
 </p>
 
-<details>
-    <summary>Pss... Do you want to know a secret?</summary>
-    <p class="Maya">
-        I'm in love with Maya
-    </p>
-</details>
+
 
 <!--Forms-->
+
     <section>
-<h1 id="forms">Types of forms</h1>
+<h2 id="forms">Types of forms</h2>
+
+<section>
+    <p>Твоє ім'я: <input type="text" name="username"></p>
+
+    <p> Чарівне слово: <input type="password" name="password"></p>
+
+    <p>Накарлякай щось нижче:<br>
+        <textarea name="comments" rows="4" cols="50"></textarea></p>
+
+<p><input type="button" value="Тицьни сюди"></p>
+
+<p>Кохай без вимог, щиро й від душі <br><input type="checkbox" name="subscribe" value="yes"> Погоджуюся з умовами</p>
+
+Обери свою стать:<br>
+<p><input type="radio" name="gender" value="male"> Мужской</p>
+<p><input type="radio" name="gender" value="female"> Женский</p>
+
+<p>Обери країну <select name="country">
+    <option value="usa">США</option>
+    <option value="ukraine">Україна</option>
+    <option value="uk">Великобритания</option>
+    <option value="Portugal">Португалія</option>
+</select></p>
+
+<p><input type="file" name="fileUpload"></p>
+
+<p><label for="tag"> Обери улюбленого бітла:</label>
+<select id="tag" name="tag">
+    <option value="" disabled selected hidden>Обрати</option>
+    <option value="John Lennon">John Lennon</option>
+    <option value="Paul McCartney">Paul McCartney</option>
+    <option value="George Harrison">George Harrison</option>
+    <option value="Ringo Starr">Ringo Starr</option>
+</select>
+</p>
+</section>
+
+
 <form>
     <p>Form with a counter with a hint <input type="number" placeholder="count up or down"></p>
     <p>Form with a hint <input type="text" placeholder="type something"></p>
 </form>
-
-<form>
-Form with a list:
-<input list="tags" name="tag">
-<datalist id="tags">
-<option value="John Lennon">John Lennon</option>
-<option value="Paul McCartney">Paul McCartney</option>
-<option value="George Harrison">George Harrison</option>
-<option value="Ringo Starr">Ringo Starr</option>
-</datalist>
-</form>
     </section>
+
     <section>
 <p>Form with a list:
 <select name="Guitars">
@@ -101,7 +145,7 @@ Form with a list:
 </select></p>
     </section>
 
-<h1>Tables</h1>
+<h2>Tables</h2>
 
 <p>
 <table border="3" width="300" height="100">
@@ -118,7 +162,7 @@ Form with a list:
     </table>
 </p>
 
-<h1 id="links">Links</h1>
+<h2 id="links">Links</h2>
 <a href="./img/frame.jpg" download="new jpg title">Download the door frame from Friends TV show</a><br>
 <p><a href="./img/frame.jpg" target="_blank">откроется в новой вкладке</a></p>
 <a href="./img/frame.jpg"><img src="./img/frame.jpg" alt="frame" /></a>
@@ -129,12 +173,6 @@ Form with a list:
 <button type="button">для интерактива</button><br>
 <button type="submit">для форм</Button><br>
 
-<div class="example">
-    <h6 class="example-title">trololo</h6>
-    <ul>
-        <li>la la la</li>
-    </ul>
-</div>        
 </main>
 <footer>
     <p>Всі права захищені &copy; мнемокод</p>

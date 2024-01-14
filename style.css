@@ -30,10 +30,12 @@ ol {
   font-weight: 900;
 }
 
-.Maya {
+.maya {
   color: red;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 20px;
+  border-style: dashed;
+  font-style: italic;
 }
 /*line-height: множник | значення | відсотки | normal | inherit*/
 /*letter-spacing: значення | normal | inherit*/
