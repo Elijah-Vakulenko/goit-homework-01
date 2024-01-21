@@ -1,6 +1,6 @@
 @font-face {
   font-family: creo;
-  src: url(../html-test-workspace/fonts/CHROMOH.ttf);
+  src: url(../fonts/CHROMOH.ttf);
 }
 
 /*Селектор за типом елемента (X)*/
@@ -10,10 +10,7 @@ h1 {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: "creo";
   font-size: 40px;
 }
