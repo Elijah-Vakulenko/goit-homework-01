@@ -5,13 +5,13 @@
     <meta name="viewport" content="Some html tips and tricks for a beginer">
     <title>html test</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./style.css">
     <!--embedded stylesheet / вбудована таблиця стилів -->
         <style>
 address {
     background-color: greenyellow;
 }
         </style>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <!--The color of the background-->
@@ -41,8 +41,23 @@ address {
 
 <main>
 
-<!--Types of text-->
+<section class="topics">
+<ul>
+    <li><a href="./grid.html">CSS GRID</a></li>
+    <li><a href="">CSS ANIMATION</a></li>
+    <li><a href="">FORMS</a></li>
+    <li><a href="">LISTS</a></li>
+    <li><a href="">HOVER EFFECTS</a></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+</section>
 
+
+<!--Types of text-->
+<div class="text-types">
     <h2 id="text-types">Types of text and lists</h2>
 <ul>
     <li><b>bold</b></li>
@@ -54,10 +69,11 @@ address {
     <li><span style="background: white;">text with colored bg</span></li>
     <li><span style="font-size: 30px;">bigger text</span></li>
     <li>I markes <mark>this text</mark></li>
-    <li><p style="color: #a4deab; font-size: 20px; font-weight: 900;">Осьо якось так...</p></li>
+    <li><p style="color: #a4deab; background: color #e2b683; 20px; font-weight: 900;">Осьо якось так...</p></li>
     <li><p class="latin-text">Lorem, &lt;ipsum&gt; dolor.</p></li>
 </ul>
-
+</div>
+<div class="list-types">
 <H2>Lists</H2>
 
 <ul>
@@ -80,15 +96,12 @@ address {
     <dt>Термин 2</dt>
     <dd>Определение 2</dd>
 </dl>
-
 </p>
+</div>
 
-
-
-<p contenteditable="true">You allowded to edit this text</p>
 
 <!--Forms-->
-
+<div class="form-types">
     <section>
 <h2 id="forms">Types of forms</h2>
 
@@ -146,11 +159,12 @@ address {
 <option value="Trembita">Trembita</option>
 </select></p>
     </section>
+</div>
 
 <h2>Tables</h2>
 
 <p>
-<table border="3" width="300" height="100">
+<table border="15"  width="300" height="100">
     <tr>
         <th>Who</th>
         <th>Loves</th>
@@ -173,7 +187,6 @@ address {
 <img src="./img/frame.jpg" alt="The door frame" width="100" height="100" /><br>
 
 <button type="button">для интерактива</button><br>
-<p>Клікни тут! Кайфонєш!!!</p>
 <button type="submit">для форм</Button><br>
 
 </main>
